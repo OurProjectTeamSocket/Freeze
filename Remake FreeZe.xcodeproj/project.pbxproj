@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB3644323E0C55800022127 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = DEB3644223E0C55800022127 /* ResourcePath.mm */; };
+		DEB3644623E0C55800022127 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEB3644523E0C55800022127 /* main.cpp */; };
+		DEB3644923E0C55800022127 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB3644823E0C55800022127 /* cute_image.jpg */; };
+		DEB3644B23E0C55800022127 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = DEB3644A23E0C55800022127 /* nice_music.ogg */; };
+		DEB3644D23E0C55800022127 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEB3644C23E0C55800022127 /* sansation.ttf */; };
+		DEB3644F23E0C55800022127 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB3644E23E0C55800022127 /* icon.png */; };
+		DEB3645C23E0C7A700022127 /* WindowStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEB3645A23E0C7A700022127 /* WindowStruct.cpp */; };
+		DEB3645F23E0C96200022127 /* PlayerStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEB3645D23E0C96200022127 /* PlayerStruct.cpp */; };
+		DEB3646223E0D2F700022127 /* FreeZe-Player.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB3646123E0D2F700022127 /* FreeZe-Player.png */; };
+		DEB3646623E0D53B00022127 /* MapGeneratorClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEB3646423E0D53B00022127 /* MapGeneratorClass.cpp */; };
+		DEB364B623E41C0900022127 /* IMG_0954.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DEB364B223E41C0300022127 /* IMG_0954.PNG */; };
+		DEB364B723E41C0900022127 /* IMG_0955.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DEB364B323E41C0900022127 /* IMG_0955.PNG */; };
+		DEB364B823E41C0900022127 /* IMG_0957.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DEB364B423E41C0900022127 /* IMG_0957.PNG */; };
+		DEB364B923E41C0900022127 /* IMG_0956.PNG in Resources */ = {isa = PBXBuildFile; fileRef = DEB364B523E41C0900022127 /* IMG_0956.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEB3643D23E0C55800022127 /* Remake FreeZe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remake FreeZe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB3644123E0C55800022127 /* Remake FreeZe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Remake FreeZe-Info.plist"; path = "../Remake FreeZe-Info.plist"; sourceTree = "<group>"; };
+		DEB3644223E0C55800022127 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		DEB3644423E0C55800022127 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		DEB3644523E0C55800022127 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEB3644823E0C55800022127 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
+		DEB3644A23E0C55800022127 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
+		DEB3644C23E0C55800022127 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
+		DEB3644E23E0C55800022127 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		DEB3645A23E0C7A700022127 /* WindowStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WindowStruct.cpp; sourceTree = "<group>"; };
+		DEB3645B23E0C7A700022127 /* WindowStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WindowStruct.hpp; sourceTree = "<group>"; };
+		DEB3645D23E0C96200022127 /* PlayerStruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayerStruct.cpp; sourceTree = "<group>"; };
+		DEB3645E23E0C96200022127 /* PlayerStruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PlayerStruct.hpp; sourceTree = "<group>"; };
+		DEB3646023E0CF4000022127 /* Remake FreeZe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remake FreeZe.entitlements"; sourceTree = "<group>"; };
+		DEB3646123E0D2F700022127 /* FreeZe-Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FreeZe-Player.png"; path = "../../../../Sprites/FreeZe-Player.png"; sourceTree = "<group>"; };
+		DEB3646423E0D53B00022127 /* MapGeneratorClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MapGeneratorClass.cpp; sourceTree = "<group>"; };
+		DEB3646523E0D53B00022127 /* MapGeneratorClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MapGeneratorClass.hpp; sourceTree = "<group>"; };
+		DEB364B223E41C0300022127 /* IMG_0954.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0954.PNG; path = ../../../../../../Downloads/IMG_0954.PNG; sourceTree = "<group>"; };
+		DEB364B323E41C0900022127 /* IMG_0955.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0955.PNG; path = ../../../../../../Downloads/IMG_0955.PNG; sourceTree = "<group>"; };
+		DEB364B423E41C0900022127 /* IMG_0957.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0957.PNG; path = ../../../../../../Downloads/IMG_0957.PNG; sourceTree = "<group>"; };
+		DEB364B523E41C0900022127 /* IMG_0956.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0956.PNG; path = ../../../../../../Downloads/IMG_0956.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB3643923E0C55700022127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB3643323E0C55700022127 = {
+			isa = PBXGroup;
+			children = (
+				DEB3643F23E0C55800022127 /* Remake FreeZe */,
+				DEB3643E23E0C55800022127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB3643E23E0C55800022127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3643D23E0C55800022127 /* Remake FreeZe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB3643F23E0C55800022127 /* Remake FreeZe */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3646023E0CF4000022127 /* Remake FreeZe.entitlements */,
+				DEB3645923E0C6EF00022127 /* ItemStruct */,
+				DEB3645823E0C6C800022127 /* GUIClass */,
+				DEB3645723E0C66400022127 /* MapGeneratorClass */,
+				DEB3645623E0C64D00022127 /* PlayerStruct */,
+				DEB3645523E0C61400022127 /* WindowStruct */,
+				DEB3644223E0C55800022127 /* ResourcePath.mm */,
+				DEB3644423E0C55800022127 /* ResourcePath.hpp */,
+				DEB3644523E0C55800022127 /* main.cpp */,
+				DEB3644723E0C55800022127 /* Resources */,
+				DEB3644023E0C55800022127 /* Supporting Files */,
+			);
+			path = "Remake FreeZe";
+			sourceTree = "<group>";
+		};
+		DEB3644023E0C55800022127 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3644123E0C55800022127 /* Remake FreeZe-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEB3644723E0C55800022127 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEB364B223E41C0300022127 /* IMG_0954.PNG */,
+				DEB364B323E41C0900022127 /* IMG_0955.PNG */,
+				DEB364B523E41C0900022127 /* IMG_0956.PNG */,
+				DEB364B423E41C0900022127 /* IMG_0957.PNG */,
+				DEB3646123E0D2F700022127 /* FreeZe-Player.png */,
+				DEB3644823E0C55800022127 /* cute_image.jpg */,
+				DEB3644A23E0C55800022127 /* nice_music.ogg */,
+				DEB3644C23E0C55800022127 /* sansation.ttf */,
+				DEB3644E23E0C55800022127 /* icon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEB3645523E0C61400022127 /* WindowStruct */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3645A23E0C7A700022127 /* WindowStruct.cpp */,
+				DEB3645B23E0C7A700022127 /* WindowStruct.hpp */,
+			);
+			path = WindowStruct;
+			sourceTree = "<group>";
+		};
+		DEB3645623E0C64D00022127 /* PlayerStruct */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3645D23E0C96200022127 /* PlayerStruct.cpp */,
+				DEB3645E23E0C96200022127 /* PlayerStruct.hpp */,
+			);
+			path = PlayerStruct;
+			sourceTree = "<group>";
+		};
+		DEB3645723E0C66400022127 /* MapGeneratorClass */ = {
+			isa = PBXGroup;
+			children = (
+				DEB3646423E0D53B00022127 /* MapGeneratorClass.cpp */,
+				DEB3646523E0D53B00022127 /* MapGeneratorClass.hpp */,
+			);
+			path = MapGeneratorClass;
+			sourceTree = "<group>";
+		};
+		DEB3645823E0C6C800022127 /* GUIClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GUIClass;
+			sourceTree = "<group>";
+		};
+		DEB3645923E0C6EF00022127 /* ItemStruct */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ItemStruct;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB3643C23E0C55700022127 /* Remake FreeZe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB3645223E0C55800022127 /* Build configuration list for PBXNativeTarget "Remake FreeZe" */;
+			buildPhases = (
+				DEB3643823E0C55700022127 /* Sources */,
+				DEB3643923E0C55700022127 /* Frameworks */,
+				DEB3643A23E0C55700022127 /* Resources */,
+				DEB3643B23E0C55700022127 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remake FreeZe";
+			productName = "Remake FreeZe";
+			productReference = DEB3643D23E0C55800022127 /* Remake FreeZe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB3643423E0C55700022127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Emil Panecki";
+				TargetAttributes = {
+					DEB3643C23E0C55700022127 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DEB3643723E0C55700022127 /* Build configuration list for PBXProject "Remake FreeZe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB3643323E0C55700022127;
+			productRefGroup = DEB3643E23E0C55800022127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB3643C23E0C55700022127 /* Remake FreeZe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB3643A23E0C55700022127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB364B823E41C0900022127 /* IMG_0957.PNG in Resources */,
+				DEB364B923E41C0900022127 /* IMG_0956.PNG in Resources */,
+				DEB3644F23E0C55800022127 /* icon.png in Resources */,
+				DEB364B623E41C0900022127 /* IMG_0954.PNG in Resources */,
+				DEB3644D23E0C55800022127 /* sansation.ttf in Resources */,
+				DEB3646223E0D2F700022127 /* FreeZe-Player.png in Resources */,
+				DEB3644B23E0C55800022127 /* nice_music.ogg in Resources */,
+				DEB3644923E0C55800022127 /* cute_image.jpg in Resources */,
+				DEB364B723E41C0900022127 /* IMG_0955.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEB3643B23E0C55700022127 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB3643823E0C55700022127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB3646623E0D53B00022127 /* MapGeneratorClass.cpp in Sources */,
+				DEB3644623E0C55800022127 /* main.cpp in Sources */,
+				DEB3644323E0C55800022127 /* ResourcePath.mm in Sources */,
+				DEB3645C23E0C7A700022127 /* WindowStruct.cpp in Sources */,
+				DEB3645F23E0C96200022127 /* PlayerStruct.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEB3645023E0C55800022127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		DEB3645123E0C55800022127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		DEB3645323E0C55800022127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Remake FreeZe/Remake FreeZe.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35S8SL8N6H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Remake FreeZe/Remake FreeZe-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEB3645423E0C55800022127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Remake FreeZe/Remake FreeZe.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35S8SL8N6H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Remake FreeZe/Remake FreeZe-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB3643723E0C55700022127 /* Build configuration list for PBXProject "Remake FreeZe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB3645023E0C55800022127 /* Debug */,
+				DEB3645123E0C55800022127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB3645223E0C55800022127 /* Build configuration list for PBXNativeTarget "Remake FreeZe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB3645323E0C55800022127 /* Debug */,
+				DEB3645423E0C55800022127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB3643423E0C55700022127 /* Project object */;
+}
